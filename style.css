@@ -1,0 +1,232 @@
+* {
+  font-family: "lexend";
+}
+
+body {
+  background-color: #fbf3f2;
+  margin: 0;
+  background-image: url(PUIH_HOTEL.png);
+  background-size: cover;
+  height: 1280px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.container-navbar {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.navbar {
+  display: inline-block;
+  margin: 0;
+  padding: 17px;
+  text-align: center;
+  background-color: #032539;
+  border-radius: 100px;
+  /* border: solid 1px red; */
+}
+
+.li-navbar {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.li-navbar a {
+  text-decoration: none;
+  color: #fbf3f2;
+}
+
+.home {
+  /* border: solid 1px red; */
+  padding: 10px 20px;
+  border-radius: 100px;
+  background-color: #fbf3f2;
+  color: #032539;
+}
+
+.about:hover,
+.porto:hover,
+.contact:hover {
+  border-bottom: #fbf3f2 1px solid;
+  padding-bottom: 3px;
+  transition: 0.4ms;
+}
+
+.main-text {
+  position: absolute;
+  color: #032539;
+  left: 80px;
+  top: 160px;
+}
+
+#halo {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+  /* border: solid 1px red; */
+}
+
+.opening-text {
+  /* border: solid 1px red; */
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+#nama {
+  font-weight: bold;
+  color: #fa991c;
+}
+
+#welcome-to {
+  position: relative;
+  bottom: 5px;
+  /* border: 1px solid red; */
+}
+
+button.book-now {
+  width: 200px;
+  height: 50px;
+  background-color: #032539;
+  color: #fbf3f2;
+  border: #032539 solid 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button.book-now:hover {
+  background-color: #fbf3f2;
+  color: #032539;
+}
+
+button.check-in {
+  width: 200px;
+  height: 50px;
+  border: 2px solid #032539;
+  border-radius: 7px;
+  background-color: #fbf3f2;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button.check-in:hover {
+  background-color: #032539;
+  color: #fbf3f2;
+}
+
+.div-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #032539;
+  border-top: 5px solid #fa991c;
+}
+
+.footer {
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.text-footer {
+  color: #fbf3f2;
+}
+
+.room-package {
+  position: absolute;
+  top: 700px;
+  left: 110px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.std-room {
+  border-radius: 15px;
+  position: absolute;
+  padding: 20px;
+  background-color: #032539;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #fbf3f2;
+  margin: 5px 0;
+}
+
+#desc {
+  margin-top: 5px;
+  color: #fbf3f2;
+}
+
+#price {
+  color: #fa991c;
+  font-weight: bold;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.dlx-room {
+  position: absolute;
+  /* top: 20px; */
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #1c768f;
+  margin-left: 400px;
+}
+
+.fam-room{
+  position: absolute;
+  margin-left: 800px;
+  background-color: #032539;
+  /* border: 1px solid red; */
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.our{
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  /* padding: 10px; */
+  top: -120px;
+  left: 420px;
+  /* bottom: 20px; */
+}
+
+.our-rooms{
+  color: #032539;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.footer-page{
+  position: absolute;
+  margin-top: 1200px;
+  width: 100%;
+  background-color: #fa991c;
+  height: max-content;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-top: 5px solid #032539;
+}
+
+#footer-text{
+  font-size: 15px;
+}
